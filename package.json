@@ -1,0 +1,16 @@
+{
+  "name": "kachasi_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run e2e/Kachasi_API.postman_collection.json -e e2e/Kachasi_Env.postman_environment.json --folder Admin -r htmlextra --reporter-htmlextra-export ./results/report.html --reporter-htmlextra-title \"Kachasi API regression Report\" --reporter-htmlextra-displayProgressBar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}

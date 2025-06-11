@@ -37,9 +37,9 @@ pipeline {
         always {
             junit 'results/junit-report.xml'
         }
-        success {
+        //success {
            // echo 'This will run only if the pipeline succeeds.'
-        }
+        //}
         failure {
             echo 'Pipeline failed.'
         }

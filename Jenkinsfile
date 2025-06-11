@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        nodejs 'node20' // Ensure you have a NodeJS tool configured in Jenkins
+    }
 
     options {
       skipDefaultCheckout(true)

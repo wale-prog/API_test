@@ -1,1 +1,3 @@
 node_modules
+results/junit-report.xml
+results/report.html

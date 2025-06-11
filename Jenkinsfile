@@ -24,8 +24,9 @@ pipeline {
                     npm install
                     npm install -g newman
                 '''
+                echo 'Dependencies installed successfully.'
             }
-            echo 'Dependencies installed successfully.'
+            
         }
         stage('Run tests with Newman') {
             steps {

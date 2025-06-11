@@ -11,17 +11,21 @@ pipeline {
                 cleanWs()
                 echo 'Checking out code...'
                 checkout scm
+                echo 'Cloned from GitHub repository:'
             }
                 
         }
         stage('Install dependencies') {
             steps {
+                echo 'Installing dependencies...'
+                // Ensure Node.js and npm are installed on the Jenkins agent
                sh '''
                     echo 'Installing dependencies...'
                     npm install
                     npm install -g newman
                 '''
             }
+            echo 'Dependencies installed successfully.'
         }
         stage('Run tests with Newman') {
             steps {

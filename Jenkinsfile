@@ -35,7 +35,7 @@ pipeline {
 
     post {
         always {
-            junit 'results/junit-report.xml'
+            junit 'results/junit-result.xml'
         }
         //success {
            // echo 'This will run only if the pipeline succeeds.'

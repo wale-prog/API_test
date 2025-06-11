@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "newman run e2e/Kachasi_API.postman_collection.json -e e2e/Kachasi_Env.postman_environment.json --folder \"Logger Level\" -r htmlextra,cli,junit --reporter-htmlextra-export ./results/report.html --reporter-htmlextra-title \"Kachasi API regression Report\" --reporter-htmlextra-displayProgressBar --reporter-junit-export results/junit-report.xml"
+    "test": "newman run e2e/Kachasi_API.postman_collection.json -e e2e/Kachasi_Env.postman_environment.json --folder \"Logger Level\" -r htmlextra,cli,junit --reporter-htmlextra-export ./results/report.html --reporter-htmlextra-title \"Regression Report\" --reporter-htmlextra-title \"Kachasi API regression Report\" --reporter-htmlextra-displayProgressBar --reporter-junit-export results/junit-result.xml"
   },
   "keywords": [],
   "author": "",

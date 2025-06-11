@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kachasi API" tests="10" time="3.871">
+  <testsuite name="api / Admin / Logger Level / Create Log" id="5e96ca53-6a13-4440-b1b6-6022aef35220" timestamp="2025-06-11T13:32:18.472Z" tests="2" failures="1" errors="0" time="0.972">
+    <testcase name="Validate the status code is 200" time="0.972" classname="ApiAdminLoggerLevelCreateLog">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 408">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log.]]>
+        <![CDATA[Test description: Validate the status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 408.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 408
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the response time" time="0.972" classname="ApiAdminLoggerLevelCreateLog"/>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Create Log -ve duplicate" id="588f767b-4847-4b19-b7b7-e0a7a9d96d8b" timestamp="2025-06-11T13:32:18.472Z" tests="4" failures="4" errors="0" time="0.456">
+    <testcase name="Validate that the status code is 409" time="0.456" classname="ApiAdminLoggerLevelCreateLogVeDuplicate">
+      <failure type="AssertionFailure" message="expected response to have status code 409 but got 408">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log -ve duplicate.]]>
+        <![CDATA[Test description: Validate that the status code is 409.]]>
+        <![CDATA[Error message: expected response to have status code 409 but got 408.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 409 but got 408
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the response time is below 100ms" time="0.456" classname="ApiAdminLoggerLevelCreateLogVeDuplicate">
+      <failure type="AssertionFailure" message="expected 456 to be below 100">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log -ve duplicate.]]>
+        <![CDATA[Test description: Validate the response time is below 100ms.]]>
+        <![CDATA[Error message: expected 456 to be below 100.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 456 to be below 100
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the error message contains 'Conflict'" time="0.456" classname="ApiAdminLoggerLevelCreateLogVeDuplicate">
+      <failure type="AssertionFailure" message="expected 'REQUEST_TIMEOUT' to deeply equal 'CONFLICT'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log -ve duplicate.]]>
+        <![CDATA[Test description: Validate the error message contains 'Conflict'.]]>
+        <![CDATA[Error message: expected 'REQUEST_TIMEOUT' to deeply equal 'CONFLICT'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'REQUEST_TIMEOUT' to deeply equal 'CONFLICT'
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the error message is 'Record Already Exist'" time="0.456" classname="ApiAdminLoggerLevelCreateLogVeDuplicate">
+      <failure type="AssertionFailure" message="expected 'Token not found' to include 'Record Already Exist'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log -ve duplicate.]]>
+        <![CDATA[Test description: Validate that the error message is 'Record Already Exist'.]]>
+        <![CDATA[Error message: expected 'Token not found' to include 'Record Already Exist'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Token not found' to include 'Record Already Exist'
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Get All Logs" id="444d1ddb-0ec3-4a2a-9f69-92a4a92f66c8" timestamp="2025-06-11T13:32:18.472Z" tests="0" failures="0" errors="1" time="0.371">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: resp.forEach is not a function
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Update Log" id="cb83aff4-874e-4f23-b205-dd208375ac99" timestamp="2025-06-11T13:32:18.472Z" tests="6" failures="5" errors="0" time="0.280">
+    <testcase name="Validate that the status is 200" time="0.280" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 408">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate that the status is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 408.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 408
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the response time is less than 700ms" time="0.280" classname="ApiAdminLoggerLevelUpdateLog"/>
+    <testcase name="Validate the response contain the required fields" time="0.280" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected { errordetails: { …(8) } } to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate the response contain the required fields.]]>
+        <![CDATA[Error message: expected { errordetails: { …(8) } } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { errordetails: { …(8) } } to have property 'id'
+   at Object.eval sandbox-script.js:3:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the required fields have the correct data types" time="0.280" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected undefined to be a number">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate that the required fields have the correct data types.]]>
+        <![CDATA[Error message: expected undefined to be a number.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number
+   at Object.eval sandbox-script.js:4:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the loggerName is 'Informational'" time="0.280" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected undefined to equal 'Informational'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate that the loggerName is 'Informational'.]]>
+        <![CDATA[Error message: expected undefined to equal 'Informational'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 'Informational'
+   at Object.eval sandbox-script.js:5:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the loggerLevel is 'ERROR'" time="0.280" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected undefined to equal 'ERROR'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate that the loggerLevel is 'ERROR'.]]>
+        <![CDATA[Error message: expected undefined to equal 'ERROR'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 'ERROR'
+   at Object.eval sandbox-script.js:6:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Delete Log" id="2a9a065c-6381-46e6-8ace-fa4700890555" timestamp="2025-06-11T13:32:18.472Z" tests="2" failures="2" errors="0" time="0.299">
+    <testcase name="Status code is 200" time="0.299" classname="ApiAdminLoggerLevelDeleteLog">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 408">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Delete Log.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 408.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 408
+   at Object.eval sandbox-script.js:1:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.299" classname="ApiAdminLoggerLevelDeleteLog">
+      <failure type="AssertionFailure" message="expected 299 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Delete Log.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 299 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 299 to be below 200
+   at Object.eval sandbox-script.js:2:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Create Log -ve duplicate" id="d1aaa692-7836-44a0-a8a2-a7add11495f5" timestamp="2025-06-11T13:32:18.472Z" tests="4" failures="4" errors="0" time="0.528">
+    <testcase name="Validate that the status code is 409" time="0.528" classname="ApiAdminLoggerLevelCreateLogVeDuplicate">
+      <failure type="AssertionFailure" message="expected response to have status code 409 but got 408">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log -ve duplicate.]]>
+        <![CDATA[Test description: Validate that the status code is 409.]]>
+        <![CDATA[Error message: expected response to have status code 409 but got 408.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 409 but got 408
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the response time is below 100ms" time="0.528" classname="ApiAdminLoggerLevelCreateLogVeDuplicate">
+      <failure type="AssertionFailure" message="expected 528 to be below 100">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log -ve duplicate.]]>
+        <![CDATA[Test description: Validate the response time is below 100ms.]]>
+        <![CDATA[Error message: expected 528 to be below 100.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 528 to be below 100
+   at Object.eval sandbox-script.js:2:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the error message contains 'Conflict'" time="0.528" classname="ApiAdminLoggerLevelCreateLogVeDuplicate">
+      <failure type="AssertionFailure" message="expected 'REQUEST_TIMEOUT' to deeply equal 'CONFLICT'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log -ve duplicate.]]>
+        <![CDATA[Test description: Validate the error message contains 'Conflict'.]]>
+        <![CDATA[Error message: expected 'REQUEST_TIMEOUT' to deeply equal 'CONFLICT'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'REQUEST_TIMEOUT' to deeply equal 'CONFLICT'
+   at Object.eval sandbox-script.js:3:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the error message is 'Record Already Exist'" time="0.528" classname="ApiAdminLoggerLevelCreateLogVeDuplicate">
+      <failure type="AssertionFailure" message="expected 'Token not found' to include 'Record Already Exist'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log -ve duplicate.]]>
+        <![CDATA[Test description: Validate that the error message is 'Record Already Exist'.]]>
+        <![CDATA[Error message: expected 'Token not found' to include 'Record Already Exist'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Token not found' to include 'Record Already Exist'
+   at Object.eval sandbox-script.js:4:6).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Create Log" id="e8c98335-77bd-40ed-85df-bafe22b53bf0" timestamp="2025-06-11T13:32:18.472Z" tests="2" failures="1" errors="0" time="0.286">
+    <testcase name="Validate the status code is 200" time="0.286" classname="ApiAdminLoggerLevelCreateLog">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 408">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Create Log.]]>
+        <![CDATA[Test description: Validate the status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 408.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 408
+   at Object.eval sandbox-script.js:1:7).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the response time" time="0.286" classname="ApiAdminLoggerLevelCreateLog"/>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Get All Logs" id="6f290420-465c-49cb-ba72-47463d40356d" timestamp="2025-06-11T13:32:18.472Z" tests="0" failures="0" errors="1" time="0.238">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: resp.forEach is not a function
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Update Log" id="bbd329bd-9a72-4537-a380-1d992c852a12" timestamp="2025-06-11T13:32:18.472Z" tests="6" failures="5" errors="0" time="0.248">
+    <testcase name="Validate that the status is 200" time="0.248" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 408">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate that the status is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 408.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 408
+   at Object.eval sandbox-script.js:1:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the response time is less than 700ms" time="0.248" classname="ApiAdminLoggerLevelUpdateLog"/>
+    <testcase name="Validate the response contain the required fields" time="0.248" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected { errordetails: { …(8) } } to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate the response contain the required fields.]]>
+        <![CDATA[Error message: expected { errordetails: { …(8) } } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { errordetails: { …(8) } } to have property 'id'
+   at Object.eval sandbox-script.js:3:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the required fields have the correct data types" time="0.248" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected undefined to be a number">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate that the required fields have the correct data types.]]>
+        <![CDATA[Error message: expected undefined to be a number.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number
+   at Object.eval sandbox-script.js:4:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the loggerName is 'Informational'" time="0.248" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected undefined to equal 'Informational'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate that the loggerName is 'Informational'.]]>
+        <![CDATA[Error message: expected undefined to equal 'Informational'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 'Informational'
+   at Object.eval sandbox-script.js:5:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate that the loggerLevel is 'ERROR'" time="0.248" classname="ApiAdminLoggerLevelUpdateLog">
+      <failure type="AssertionFailure" message="expected undefined to equal 'ERROR'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Update Log.]]>
+        <![CDATA[Test description: Validate that the loggerLevel is 'ERROR'.]]>
+        <![CDATA[Error message: expected undefined to equal 'ERROR'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 'ERROR'
+   at Object.eval sandbox-script.js:6:9).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="api / Admin / Logger Level / Delete Log" id="b00eb370-97b1-4970-aa97-a9103d5d8229" timestamp="2025-06-11T13:32:18.472Z" tests="2" failures="1" errors="0" time="0.193">
+    <testcase name="Status code is 200" time="0.193" classname="ApiAdminLoggerLevelDeleteLog">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 408">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 5700b7ff-7ae7-4893-bcda-1f929d171898.]]>
+        <![CDATA[Collection name: Kachasi API.]]>
+        <![CDATA[Request name: api / Admin / Logger Level / Delete Log.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 408.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 408
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.193" classname="ApiAdminLoggerLevelDeleteLog"/>
+  </testsuite>
+</testsuites>

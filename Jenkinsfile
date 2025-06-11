@@ -20,9 +20,8 @@ pipeline {
         }
         stage('Install dependencies') {
             steps {
-                echo 'Installing dependencies...'
-                // Ensure Node.js and npm are installed on the Jenkins agent
                sh '''
+                    which npm
                     npm install
                     npm install -g newman
                 '''
